@@ -3,12 +3,12 @@
 }
 
 :root {
-  --primary: #28242D;
-  --secondary: #E0DFE2;
-  --accent: #D38F22;
-  --primary-rgb: 40, 36, 45;
-  --secondary-rgb: 224, 223, 226;
-  --accent-rgb: 211, 143, 34;
+  --primary: #4c5ddf;
+  --secondary: #eeeeee;
+  --accent: #F6AE2D;
+  --primary-rgb: 76, 93, 223;
+  --secondary-rgb: 238, 238, 238;
+  --accent-rgb: 254, 190, 88;
 }
 
 html {
@@ -27,6 +27,8 @@ header {
   background-color: var(--primary);
   width: auto;
 }
+
+
 
 .header-logo {
   position: absolute;
@@ -109,11 +111,15 @@ header {
 }
 
 .right-button button {
+  background-color: #4c5ddf;
   margin: 3vh;
   padding: 1vh 1vw;
   width: 40%;
 }
 
+.right-button :hover{
+  color:yellow;
+}
 
 .iframe-container {
   display: flex;
@@ -137,3 +143,6 @@ section .iframe {
   background-color: var(--secondary);
 }
 
+.bottom-svg-wave {
+  width: 100%;
+}
